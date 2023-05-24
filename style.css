@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+width: 100vw;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgba(0, 0, 255, 0.5);
+overflow: hidden;
+flex-wrap: wrap;
+
+}
+
+.btn{
+    background-color: steelblue;
+    border: 0;
+    width: 120px;
+    height: 70px;
+    margin: 10px 20px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    transition: background-color .5s ease;
+
+}
+
+button:hover{
+    background-color: cadetblue;
+}
+
+button:active{
+   transform: scale(1.1);
+}
